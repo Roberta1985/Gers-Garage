@@ -1,0 +1,84 @@
+.booking-list-container{
+    max-height: 300px;
+    overflow-y: scroll ;
+    width: 27.5%;
+}
+.booking-container{
+    display: flex;
+    padding: 2%;
+    height: 300px;
+    justify-content: space-between;
+}
+.booking-date-container{
+    display: flex;
+    font-weight: bold;
+    border: 2px solid rgb(44, 44, 44);
+    width: 80%;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 1%;
+    box-sizing: border-box;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    margin: 10px 0
+}
+.booking-date-container div{
+    margin-right: 20px;
+}
+.booking-cancel{
+    color: #fede00;
+}
+.booking-create-container{
+    width: 67.5%;
+}
+.booking-selects{
+    display: flex;
+    flex-wrap: wrap;
+}
+.booking-selects select{
+    margin: 4px;
+    margin-left: 0px;
+    font-size:24px;
+    height: 40px;
+    width: 40%;
+}
+.booking-selects input{
+    margin: 4px;
+    margin-left: 0px;
+    font-size:24px;
+    height: 40px;
+    width: 40%;
+}
+.booking-create-container input{
+    margin: 4px;
+    margin-left: 0px;
+}
+
+.booking-create-container .comment{
+    margin: 4px;
+    margin-left: 0px;
+    height: 100px;
+    width: 40%;
+    text-overflow: clip;
+}
+.booking-inputs{
+    display: flex;
+    align-items: flex-start;
+}
+.booking-inputs div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+.booking-container button{
+    width: 100%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-right: 2%;
+    background-color:rgb(44, 44, 44) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
